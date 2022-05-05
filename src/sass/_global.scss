@@ -1,0 +1,43 @@
+* {
+  box-sizing: border-box;
+
+  &:before,
+  &:after {
+    box-sizing: inherit;
+  }
+}
+
+::selection {
+  color: var(--color-green);
+  background-color: var(--color-black);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  min-width: 320px;
+  min-height: 100vh;
+  font-family: var(--font-aria);
+  font-size: var(--font-16);
+  line-height: 24px;
+  font-weight: 400;
+  color: var(--color-black);
+  background-color: var(--color-gray);
+}
+
+.container {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+main {
+  flex: 1;
+}
