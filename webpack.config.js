@@ -38,6 +38,7 @@ module.exports = {
           content: 'Virtual Keyboard',
         },
       },
+      favicon: './src/img/favicon/favicon-32x32.png',
     }),
   ],
   module: {
