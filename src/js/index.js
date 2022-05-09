@@ -151,6 +151,7 @@ const MainBlock = () => {
   const container = elementHtml("div", "", "container");
   main.append(container);
   container.append(createHead());
+  container.append(createDescription());
   container.append(terminal);
   container.append(keyboardInit.generateKeyboard());
   body.append(main);
@@ -162,6 +163,17 @@ const FooterBlock = () => {
   footer.append(container);
   container.append(elementHtml("p", "Vasyl Makohin, &copy; 2022", "copyright"));
   body.append(footer);
+};
+
+const createDescription = () => {
+  const description = document.createElement("div");
+  description.classList.add("keyboard__description");
+  description.innerHTML = `
+    <p>The keyboard is created in the operating system: <strong>Windows</strong></p>
+    <p>To switch language combination: left alt + shift</p>
+  `;
+
+  return description;
 };
 
 
@@ -296,8 +308,6 @@ const keyPress = (event, button, code) => {
 };
 
 window.onload = () => {
-  // document.documentElement.classList.add('light-theme');
-
   HeaderBlock();
   MainBlock();
   FooterBlock();

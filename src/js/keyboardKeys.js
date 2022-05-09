@@ -16,7 +16,7 @@ const keyboardKeys = [
     { key: "Backspace", code: "Backspace", class: "key_backspace", noType: true },
   ],
   [
-    { key: "Tab", code: "Tab", class: "key_tab", noType: true },
+    { key: "&#11134; Tab", code: "Tab", class: "key_tab", noType: true },
     { key: { ru: "й", en: "q" }, shift: { ru: "Й", en: "Q" }, code: "KeyQ" },
     { key: { ru: "ц", en: "w" }, shift: { ru: "Ц", en: "W" }, code: "KeyW" },
     { key: { ru: "у", en: "e" }, shift: { ru: "У", en: "E" }, code: "KeyE" },
@@ -45,10 +45,10 @@ const keyboardKeys = [
     { key: { ru: "д", en: "l" }, shift: { ru: "Д", en: "L" }, code: "KeyL" },
     { key: { ru: "ж", en: ";" }, shift: { ru: "Ж", en: ":" }, code: "Semicolon" },
     { key: { ru: "э", en: "'" }, shift: { ru: "Э", en: '"' }, code: "Quote" },
-    { key: "Enter", code: "Enter", class: "key_enter", noType: true },
+    { key: "Enter &#8617;", code: "Enter", class: "key_enter", noType: true },
   ],
   [
-    { key: "Shift", code: "ShiftLeft", class: "key_leftshift", noType: true },
+    { key: "&#8679; Shift", code: "ShiftLeft", class: "key_leftshift", noType: true },
     { key: { ru: "я", en: "z" }, shift: { ru: "Я", en: "Z" }, code: "KeyZ" },
     { key: { ru: "ч", en: "x" }, shift: { ru: "Ч", en: "X" }, code: "KeyX" },
     { key: { ru: "с", en: "c" }, shift: { ru: "С", en: "C" }, code: "KeyC" },
@@ -60,7 +60,7 @@ const keyboardKeys = [
     { key: { ru: "ю", en: "." }, shift: { ru: "Ю", en: ">" }, code: "Period" },
     { key: { ru: ".", en: "/" }, shift: { ru: ",", en: "?" }, code: "Slash" },
     { key: "&uarr;", code: "ArrowUp", class: "key-arrow", noType: true },
-    { key: "Shift", code: "ShiftRight", class: "key_rightshift", noType: true },
+    { key: "&#8679; Shift", code: "ShiftRight", class: "key_rightshift", noType: true },
   ],
   [
     { key: "Ctrl", code: "ControlLeft", class: "key_leftctrl", noType: true },
